@@ -18,16 +18,6 @@ class ArticlesController < ApplicationController
     redirect_to article_path(@article)
   end
 
-  # def create
-  #   @article = Article.new(article_params)
-  #   if @article.save
-  #     flash[:notice] = "Article was successfully created."
-  #     redirect_to @article
-  #   else
-  #     render 'new'
-  #   end
-  # end
-
   def edit
   end
 

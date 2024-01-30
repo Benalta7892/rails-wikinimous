@@ -1,11 +1,6 @@
 <%= link_to "Wikiminous", articles_path %>
 <%= link_to "New Article", new_article_path %>
 
-<%# <% if flash[:notice] && !@article.new_record? %>
-  <%# <p><%= flash[:notice] </p>%>
-<%# <% end %>
-
-
 <h1>
   <%= @article.title %>
   <%= link_to "Edit", edit_article_path %>
